@@ -14,7 +14,7 @@ module.exports = env => {
     mode: 'none',
     output: {
       path: path.resolve(__dirname, ((env && env.staging) ? 'staging/dist' : 'live/dist')),
-      filename: 'app-bundle.min.js',
+      filename: 'scripts.min.js',
       library: appname,
     },
     resolve: {
