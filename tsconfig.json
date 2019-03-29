@@ -1,4 +1,4 @@
-1{
+{
     "compilerOptions": {
         "sourceMap": true,
         "noImplicitAny": true,
