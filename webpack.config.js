@@ -39,7 +39,7 @@ module.exports = env => {
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: 'style.min.css'
+        filename: 'styles.min.css'
       })
     ]
   };
