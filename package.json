@@ -4,18 +4,20 @@
   "description": "The standard template to build sexy apps.",
   "main": "",
   "scripts": {
+    "postinstall": "npm link webpack webpack-cli typescript ts-loader sass-loader node-sass css-loader mini-css-extract-plugin",
     "watch-live": "webpack",
     "watch-staging": "webpack --env.staging"
   },
   "author": "2sic internet solutions",
   "license": "MIT",
-  "devDependencies": {
+  "globalDepedenciesNote": "2sic installs these dependencies globally on the workstations, so we gave it a strange name to prevent auto-install. If you need them, rename 'globalDependencies' to 'devDependencies' and run 'npm install'",
+  "globalDependencies": {
     "css-loader": "^2.1.1",
-    "mini-css-extract-plugin": "^0.5.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.30.0",
+    "mini-css-extract-plugin": "^0.5.0"
   },
   "dependencies": {
     "@types/jquery": "^3.3.29"
