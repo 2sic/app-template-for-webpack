@@ -4,7 +4,7 @@
   "description": "The standard template to build sexy apps.",
   "main": "",
   "scripts": {
-    "postinstall": "npm link webpack webpack-cli typescript ts-loader sass-loader node-sass css-loader mini-css-extract-plugin",
+    "xpostinstall": "npm link webpack webpack-cli typescript ts-loader sass-loader node-sass css-loader mini-css-extract-plugin",
     "watch-live": "webpack",
     "watch-staging": "webpack --env.staging"
   },
