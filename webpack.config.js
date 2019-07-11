@@ -1,5 +1,5 @@
 // Please enter your bootstrap version here. bs4 = bootstrap 4, bs3 = bootstrap 3.
-const cssFramework = 'bs4';
+const cssFramework = 'index';
 // Enter the name of your app here. Use all lowercase lettering.
 const appname = 'badAppNamePlsRename';
 
